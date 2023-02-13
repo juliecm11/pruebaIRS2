@@ -1,0 +1,45 @@
+{
+	"template":"Single Map (HTML Edition)",
+	"version":"6.7.2_b1,735 (2014-09-24 1438)",
+	"boundingBox":"-119.953 13.630999999999998 -85.127 33.629",
+	"layers":[
+	{
+		"type":"base-layer",
+		"id":"_SHP.shp1",
+		"name":"SHP.shp",
+		"geometry":"polygon",
+		"url":"_SHP.shp1.js",
+		"visible":true,
+		"symbolSize":15,
+		"fillColor":"#ffffff",
+		"fillOpacity":0.8,
+		"borderColor":"#cccccc",
+		"borderThickness":1,
+		"showLabels":false,
+		"minLabelExtent":0,
+		"maxLabelExtent":1000000,
+		"iconPath":"",
+		"showDataTips":true,
+		"showInLayerList":true
+	},
+	{
+		"type":"contextual-layer",
+		"id":"contextualLayer1",
+		"name":"SHP.shp",
+		"geometry":"polygon",
+		"url":"contextualLayer1.js",
+		"visible":true,
+		"symbolSize":10,
+		"fillColor":"#FFA200",
+		"fillOpacity":0,
+		"borderColor":"#FFA200",
+		"borderThickness":2,
+		"showLabels":false,
+		"minLabelExtent":0,
+		"maxLabelExtent":1000000,
+		"iconPath":"",
+		"showDataTips":false,
+		"showInLayerList":true
+	}
+	]
+}
